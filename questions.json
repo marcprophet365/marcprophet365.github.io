@@ -1,0 +1,457 @@
+[
+  {
+    "question": "Inside which HTML element do we put the JavaScript??",
+    "choice1": "<script>",
+    "choice2": "<javascript>",
+    "choice3": "<js>",
+    "choice4": "<scripting>",
+    "answer": 1
+  },
+  {
+    "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+    "choice1": "<script href='xxx.js'>",
+    "choice2": "<script name='xxx.js'>",
+    "choice3": "<script src='xxx.js'>",
+    "choice4": "<script file='xxx.js'>",
+    "answer": 3
+  },
+  {
+    "question": " How do you write 'Hello World' in an alert box?",
+    "choice1": "msgBox('Hello World');",
+    "choice2": "alertBox('Hello World');",
+    "choice3": "msg('Hello World');",
+    "choice4": "alert('Hello World');",
+    "answer": 4
+  },
+
+  {
+    "question": " Statements of goals, objectives, and outcomes that describe why a change has been initiated",
+    "choice1": "Business requirements",
+    "choice2": "functional requirements",
+    "choice3": "Solution requirements",
+    "choice4": "Transition requirements",
+    "answer": 1
+  },
+
+  {
+    "question": " The Business Analysis Planning and Monitoring knowledge area includes all of the following tasks except?",
+    "choice1": "Plan Business production",
+    "choice2": "Plan Business Analysis Approach",
+    "choice3": "Plan Stakeholder Engagement  - Plan Stakeholder Analysis ",
+    "choice4": "Plan Business Analysis Governance",
+    "answer": 1
+  },
+
+  {
+    "question": " A _____is a group or individual with a relationship to the change, the need, or the solution whom a business analyst is likely to interact with directly or indirectly?",
+    "choice1": "Stakeholder",
+    "choice2": "Employee",
+    "choice3": "msg('Hello World');",
+    "choice4": "Customer",
+    "answer": 1
+  },
+
+  {
+    "question": " The Formality and Level of Detail of Business Analysis Deliverables Approach is?",
+    "choice1": "Predictive and Adaptive",
+    "choice2": "Solving and Flexible",
+    "choice3": "Dispute and Robust",
+    "choice4": "Visionary And Modifying",
+    "answer": 1
+  },
+
+  {
+    "question": " Which of the following are NOT an example of a database system",
+    "choice1": "MySQL",
+    "choice2": "SQL Server",
+    "choice3": "Oracle",
+    "choice4": "None of the above",
+    "answer": 4
+  },
+
+  {
+    "question": "Which SQL statement is used to extract data from a database",
+    "choice1": "Extract",
+    "choice2": "Select",
+    "choice3": "Get",
+    "choice4": "Open",
+    "answer": 2
+  },
+
+  {
+    "question": " Which SQL statement is used to update data in a database?",
+    "choice1": "Save as ",
+    "choice2": "Save",
+    "choice3": "Update",
+    "choice4": "Modify",
+    "answer": 3
+  },
+
+  {
+    "question": " Which SQL statement is used to delete data from a database?",
+    "choice1": "Delete ",
+    "choice2": "Remove",
+    "choice3": "Redundant ",
+    "choice4": "Done",
+    "answer": 3
+  },
+
+  {
+    "question": "Which SQL statement is used to insert new data in a database?",
+    "choice1": "Insert New ",
+    "choice2": "Add New ",
+    "choice3": "Add record ",
+    "choice4": "Insert into",
+    "answer": 4
+  },
+
+  {
+    "question": "With SQL, how do you select a column named FirstName from a table named Persons?",
+    "choice1": "SELECT first Name FROM Persons",
+    "choice2": "EXTRACT FirstName FROM Persons",
+    "choice3": "SELECT Persons.FirstName",
+    "choice4": "SELECT [all] FROM Persons",
+    "answer": 4
+  },
+
+  {
+    "question": " With SQL, how do you select all the columns from a table named Persons ?",
+    "choice1": "SELECT *.Persons",
+    "choice2": "SELECT [all] FROM Persons",
+    "choice3": "SELECT Persons",
+    "choice4": "SELECT * FROM Persons",
+    "answer": 4
+  },
+
+  {
+    "question": " With SQL, how do you select all the records from a table named Persons where the value of the column FirstName starts with an a?",
+    "choice1": "SELECT * FROM Persons WHERE FirstName='%a%'",
+    "choice2": "SELECT * FROM Persons WHERE FirstName LIKE '%a'",
+    "choice3": "SELECT * FROM Persons WHERE FirstName='a'",
+    "choice4": "SELECT * FROM Persons WHERE FirstName LIKE 'a%'",
+    "answer": 4
+  },
+
+  {
+    "question": " The OR operator displays a record if ANY conditions listed are true. The AND operator displays a record if ALL of the conditions listed are true",
+    "choice1": "True",
+    "choice2": "False",
+    "answer": 1
+  },
+
+  {
+    "question": " With SQL, how do you select all the records from a table named 'Persons' where the 'FirstName' is 'Peter' and the 'LastName' is 'Jackson'?",
+    "choice1": "SELECT * FROM Persons WHERE FirstName<>'Peter' AND LastName<>'Jackson'",
+    "choice2": "SELECT * FROM Persons WHERE FirstName='Peter' AND LastName='Jackson'",
+    "choice3": "SELECT FirstName='Peter', LastName='Jackson' FROM Persons",
+    "choice4": "SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'",
+    "answer": 1
+  },
+
+  {
+    "question": " With SQL, how do you select all the records from a table named 'Persons' where the 'LastName' is alphabetically between (and including) 'Hansen' and 'Pettersen'?",
+    "choice1": "SELECT * FROM Persons WHERE LastName>'Hansen' AND LastName<'Pettersen'",
+    "choice2": "SELECT LastName>'Hansen' AND LastName<'Pettersen' FROM Persons",
+    "choice3": "SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'",
+    "choice4": "alert('Hello World');",
+    "answer": 1
+  },
+
+  {
+    "question": " Which SQL statement is used to return only different values?",
+    "choice1": "SELECT UNIQUE",
+    "choice2": "SELECT DIFFERENT",
+    "choice3": "SELECT DISTINCT ",
+    "choice4": "SORT",
+    "answer": 3
+  },
+
+  {
+    "question": " Which SQL keyword is used to sort the result-set??",
+    "choice1": "SORT",
+    "choice2": "ORDER",
+    "choice3": "ORDER BY",
+    "choice4": "SORT BY",
+    "answer": 3
+  },
+
+  {
+    "question": " With SQL, how can you return all the records from a table named 'Persons' sorted descending by 'FirstName'?",
+    "choice1": "SELECT * FROM Persons SORT 'FirstName' DESC",
+    "choice2": "SELECT * FROM Persons SORT BY 'FirstName' DESC",
+    "choice3": "SELECT * FROM Persons ORDER BY FirstName DESC ",
+    "choice4": "SORT",
+    "answer": 3
+  },
+
+  {
+    "question": " Which SQL statement is used to return only different values?",
+    "choice1": "SELECT UNIQUE",
+    "choice2": "SELECT DIFFERENT",
+    "choice3": "SELECT DISTINCT ",
+    "choice4": "SORT",
+    "answer": 3
+  },
+
+  {
+    "question": " With SQL, how can you insert a new record into the 'Persons' table?",
+    "choice1": "INSERT ('Jimmy', 'Jackson') INTO Persons",
+    "choice2": "INSERT VALUES ('Jimm get y', 'Jackson') INTO PersonsT",
+    "choice3": "INSERT INTO Persons VALUES ('Jimmy', 'Jackson') ",
+    "answer": 1
+  },
+
+  {
+    "question": " With SQL, how can you insert 'Olsen' as the 'LastName' in the 'Persons' table?",
+    "choice1": "INSERT ('Olsen') INTO Persons (LastName)",
+    "choice2": "INSERT INTO Persons ('Olsen') INTO LastName",
+    "choice3": "INSERT INTO Persons (LastName) VALUES ('Olsen')",
+    "choice4": "This does not meet the standards",
+    "answer": 1
+  },
+
+  {
+    "question": " How can you change Hansen into Nilsen in the LastName column in the Persons table?",
+    "choice1": "UPDATE Persons SET LastName='Hansen' INTO LastName='Nilsen'",
+    "choice2": "MODIFY Persons SET LastName='Hansen' INTO LastName='Nilsen",
+    "choice3": "UPDATE Persons SET LastName='Nilsen' WHERE LastName='Hansen'    Correct answer   ",
+    "choice4": "MODIFY Persons SET LastName='Nilsen' WHERE LastName='Hansen'",
+    "answer": 3
+  },
+
+  {
+    "question": " With SQL, how can you delete the records where the FirstName is Peter in the Persons Table?",
+    "choice1": "DELETE FirstName='Peter' FROM Persons",
+    "choice2": "DELETE ROW FirstName='Peter' FROM Persons",
+    "choice3": "DELETE FROM Persons WHERE FirstName = 'Peter'",
+    "choice4": "DELETE ROW FirstName='Peter' FROM Persons",
+    "answer": 1
+  },
+
+  {
+    "question": " With SQL, how can you return the number of records in the Person's table?",
+    "choice1": "SELECT UNIQUE",
+    "choice2": "SELECT DIFFERENT",
+    "choice3": "SELECT DISTINCT ",
+    "choice4": "SORT",
+    "answer": 3
+  },
+
+  {
+    "question": " Which operator is used to select values within a range?",
+    "choice1": "RANGE",
+    "choice2": "SELECT DIFFERENT",
+    "choice3": "SELECT DISTINCT ",
+    "choice4": "SORT",
+    "answer": 3
+  },
+
+  {
+    "question": " Which operator is used to search for a specified pattern in a column??",
+    "choice1": "LIKE    Your answer  ",
+    "choice2": "GET",
+    "choice3": "FROM",
+    "choice4": "SORT",
+    "answer": 3
+  },
+
+  {
+    "question": " Which operator is used to search for a specified pattern in a column??",
+    "choice1": "LIKE    Your answer  ",
+    "choice2": "GET",
+    "choice3": "FROM",
+    "choice4": "SORT",
+    "answer": 3
+  },
+
+  {
+    "question": " Which operator is used to search for a specified pattern in a column??",
+    "choice1": "LIKE    Your answer  ",
+    "choice2": "GET",
+    "choice3": "FROM",
+    "choice4": "SORT",
+    "answer": 3
+  },
+
+  {
+    "question": "Johnson is participating in an Agile environment and he was asked to develop and groom the backlog along with the scrum team members, what exactly is he asked to do?",
+    "choice1": "Pick which item is best for him",
+    "choice2": "Prioritize the user stories/Epics to fit the needs of the business ",
+    "choice3": "Perform Scrum over the business requirements ",
+    "choice4": "Translate Scrum for Stakeholders and customer needs",
+    "answer": 3
+  },
+
+  {
+    "question": " Johnson is participating in an Agile environment and he was asked to develop and groom the backlog along with the scrum team members, what exactly is he asked to do?",
+    "choice1": "Pick which item is best for him",
+    "choice2": "Prioritize the user stories/Epics to fit the needs of the business ",
+    "choice3": "Perform Scrum over the business requirements ",
+    "choice4": "Translate Scrum for Stakeholders and customer needs",
+    "answer": 3
+  },
+
+  {
+    "question": "Agile focuses on agility by using shorter feedback loops ",
+    "choice1": "TRUE",
+    "choice2": "FALSE ",
+    "answer": 1
+  },
+
+  {
+    "question": " The Business Analyst is responsible for the product planning and execution throughout the product lifecycle, including: gathering and prioritizing product requirements, effectively performing agile software development activities, managing stakeholders, and providing product support.",
+    "choice1": "TRUE",
+    "choice2": "FALSE",
+    "choice3": "SCRUM",
+    "answer": 3
+  },
+
+  {
+    "question": "Will a Business Analyst be required to work with a technical team to deliver a product?",
+    "choice1": "SQL statements ",
+    "choice2": "VLOOKUP/PIVOT TABLES",
+    "choice3": "SALESFORCE",
+    "choice4": "POWER BI ",
+    "answer": 3
+  },
+
+  {
+    "question": "In waterfall does each phase need to be complete before the next phase can begin",
+    "choice1": "T",
+    "choice2": "FALSE",
+    "answer": 1
+  },
+
+  {
+    "question": "A Business analyst may be asked to collaborate and coordinate with ",
+    "choice1": "stakeholders",
+    "choice2": "customers",
+    "answer": 1
+  },
+
+  {
+    "question": "What is Use case?",
+    "choice1": "A use case is a diagrammatic representation of a system which describes how a user uses a system to accomplish a goal",
+    "choice2": "It is an integral part of software engineering and software modeling technique",
+    "choice3": "defines the targeted features and the resolution of any possible errors which a user may encounter.",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "What is Gap Analysis?",
+    "choice1": "A technique to analyze the gap between the existing system and functionalities",
+    "choice2": "A technique to determine how to fill in gaps by customers ",
+    "choice3": "A task to determine what the business needs to address, urgently",
+    "choice4": "A task to capture the goods and services",
+    "answer": 1
+  },
+
+  {
+    "question": "What is Gap Analysis?",
+    "choice1": "A technique to analyze the gap between the existing system and functionalities",
+    "choice2": "A technique to determine how to fill in gaps by customers ",
+    "choice3": "A task to determine what the business needs to address, urgently",
+    "choice4": "A task to capture the goods and services",
+    "answer": 1
+  },
+
+  {
+    "question": "What is an example of an elicitation technique?",
+    "choice1": "Querying a database ",
+    "choice2": "Collaborating with a tech team member  ",
+    "choice3": "Brainstorming ",
+    "choice4": "Analyzing the gaps in a process",
+    "answer": 3
+  },
+  {
+    "question": "Needs are high-level definitions of the future goals of a business. Whereas, Requirements are the representation of the detailed description of that business needs.",
+    "choice1": "TRUE",
+    "choice2": "FALSE",
+    "choice3": "A task to determine what the business needs to address, urgently",
+    "choice4": "A task to capture the goods and services",
+    "answer": 1
+  },
+  {
+    "question": "Which of these are NOT required by a Business Analyst ",
+    "choice1": "Requirement Elicitation",
+    "choice2": "Documentation",
+    "choice3": "Decision making",
+    "choice4": "Coding",
+    "answer": 3
+  },
+  {
+    "question": "What does INVEST stand for",
+    "choice1": "Independent, Negotiable",
+    "choice2": "Valuable. Estimable",
+    "choice3": "Sized Appropriately. Testable",
+    "choice4": "All of the above ",
+    "answer": 4
+  },
+
+  {
+    "question": "Which in NOT a core IT Business Analyst Skill",
+    "choice1": "Gathering Requirements from customer and teams",
+    "choice2": "A liaison between business, customer and technology teams",
+    "choice3": "Telling the business what they should do",
+    "choice4": "User acceptance testing and fixing and finding bugs",
+    "answer": 3
+  },
+  {
+    "question": "Verification refers to ensuring the requirement meets the quality Standard and is fit for a purpose.",
+    "choice1": "TRUE",
+    "choice2": "FALSE",
+    "answer": 1
+  },
+
+  {
+    "question": "RTM or Requirement Traceability Matrix provides forward and backward traceability to ensure that all the business requirements are met",
+    "choice1": "TRUE",
+    "choice2": "FALSE",
+    "answer": 1
+  },
+
+  {
+    "question": "A business rule is ",
+    "choice1": "whatever is decided in the scrum meetings",
+    "choice2": "what the customers wants it to be.",
+    "choice3": "A specific, testable directive that serves as a criterion for guiding behavior, shaping judgments, or making decisions.",
+    "choice4": "None of the above",
+    "answer": 3
+  },
+
+  {
+    "question": "Which of the following are apart of the Agile Manifesto",
+    "choice1": "Individuals and interactions over processes and tools ",
+    "choice2": "Working software over comprehensive documentation ",
+    "choice3": "Customer collaboration over contract negotiation ",
+    "choice4": "Responding to change over following a plan ",
+    "answer": 5
+  },
+
+  {
+    "question": "What are commonly used tools for documenting requirements?",
+    "choice1": "MS Office (Word, Power Point, Excel)",
+    "choice2": "Sharepoint ",
+    "choice3": "MS Visio, Lucid Chart ",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+
+  {
+    "question": "What are commonly used tools for documenting requirements?",
+    "choice1": "MS Office (Word, Power Point, Excel)",
+    "choice2": "Sharepoint ",
+    "choice3": "MS Visio, Lucid Chart ",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+
+  {
+    "question": "What does the  scrum team comprise of",
+    "choice1": "Product Owner",
+    "choice2": "Scrum Master ",
+    "choice3": "MS Visio, Lucid Chart ",
+    "choice4": "Development Team",
+    "answer": 5
+  }
+]
