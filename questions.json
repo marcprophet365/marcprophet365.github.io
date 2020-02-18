@@ -46,7 +46,7 @@
     "question": " A _____is a group or individual with a relationship to the change, the need, or the solution whom a business analyst is likely to interact with directly or indirectly?",
     "choice1": "Stakeholder",
     "choice2": "Employee",
-    "choice3": "msg('Hello World');",
+    "choice3": "Manager",
     "choice4": "Customer",
     "answer": 1
   },
@@ -93,7 +93,7 @@
     "choice2": "Remove",
     "choice3": "Redundant ",
     "choice4": "Done",
-    "answer": 3
+    "answer": 1
   },
 
   {
@@ -111,7 +111,7 @@
     "choice2": "EXTRACT FirstName FROM Persons",
     "choice3": "SELECT Persons.FirstName",
     "choice4": "SELECT [all] FROM Persons",
-    "answer": 4
+    "answer": 1
   },
 
   {
@@ -145,7 +145,7 @@
     "choice2": "SELECT * FROM Persons WHERE FirstName='Peter' AND LastName='Jackson'",
     "choice3": "SELECT FirstName='Peter', LastName='Jackson' FROM Persons",
     "choice4": "SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'",
-    "answer": 1
+    "answer": 2
   },
 
   {
@@ -198,7 +198,7 @@
     "choice1": "INSERT ('Jimmy', 'Jackson') INTO Persons",
     "choice2": "INSERT VALUES ('Jimm get y', 'Jackson') INTO PersonsT",
     "choice3": "INSERT INTO Persons VALUES ('Jimmy', 'Jackson') ",
-    "answer": 1
+    "answer": 3
   },
 
   {
@@ -206,7 +206,7 @@
     "choice1": "INSERT ('Olsen') INTO Persons (LastName)",
     "choice2": "INSERT INTO Persons ('Olsen') INTO LastName",
     "choice3": "INSERT INTO Persons (LastName) VALUES ('Olsen')",
-    "choice4": "This does not meet the standards",
+    "choice4": "MODIFY Persons SET LastName='Nilsen' WHERE LastName='Hansen'",
     "answer": 1
   },
 
@@ -214,7 +214,7 @@
     "question": " How can you change Hansen into Nilsen in the LastName column in the Persons table?",
     "choice1": "UPDATE Persons SET LastName='Hansen' INTO LastName='Nilsen'",
     "choice2": "MODIFY Persons SET LastName='Hansen' INTO LastName='Nilsen",
-    "choice3": "UPDATE Persons SET LastName='Nilsen' WHERE LastName='Hansen'    Correct answer   ",
+    "choice3": "UPDATE Persons SET LastName='Nilsen' WHERE LastName='Hansen'",
     "choice4": "MODIFY Persons SET LastName='Nilsen' WHERE LastName='Hansen'",
     "answer": 3
   },
@@ -230,47 +230,29 @@
 
   {
     "question": " With SQL, how can you return the number of records in the Person's table?",
-    "choice1": "SELECT UNIQUE",
-    "choice2": "SELECT DIFFERENT",
-    "choice3": "SELECT DISTINCT ",
-    "choice4": "SORT",
-    "answer": 3
+    "choice1": "SELECT COUNT(*) FROM Persons",
+    "choice2": "SELECT ",
+    "choice3": "SELECT NO(*) FROM Persons ",
+    "choice4": "COUNTIF()",
+    "answer": 1
   },
 
   {
     "question": " Which operator is used to select values within a range?",
     "choice1": "RANGE",
     "choice2": "SELECT DIFFERENT",
-    "choice3": "SELECT DISTINCT ",
+    "choice3": "BETWEEN",
     "choice4": "SORT",
     "answer": 3
   },
 
   {
     "question": " Which operator is used to search for a specified pattern in a column??",
-    "choice1": "LIKE    Your answer  ",
+    "choice1": "LIKE",
     "choice2": "GET",
     "choice3": "FROM",
     "choice4": "SORT",
-    "answer": 3
-  },
-
-  {
-    "question": " Which operator is used to search for a specified pattern in a column??",
-    "choice1": "LIKE    Your answer  ",
-    "choice2": "GET",
-    "choice3": "FROM",
-    "choice4": "SORT",
-    "answer": 3
-  },
-
-  {
-    "question": " Which operator is used to search for a specified pattern in a column??",
-    "choice1": "LIKE    Your answer  ",
-    "choice2": "GET",
-    "choice3": "FROM",
-    "choice4": "SORT",
-    "answer": 3
+    "answer": 1
   },
 
   {
@@ -279,7 +261,7 @@
     "choice2": "Prioritize the user stories/Epics to fit the needs of the business ",
     "choice3": "Perform Scrum over the business requirements ",
     "choice4": "Translate Scrum for Stakeholders and customer needs",
-    "answer": 3
+    "answer": 2
   },
 
   {
@@ -302,31 +284,30 @@
     "question": " The Business Analyst is responsible for the product planning and execution throughout the product lifecycle, including: gathering and prioritizing product requirements, effectively performing agile software development activities, managing stakeholders, and providing product support.",
     "choice1": "TRUE",
     "choice2": "FALSE",
-    "choice3": "SCRUM",
-    "answer": 3
+    "answer": 1
   },
 
   {
     "question": "Will a Business Analyst be required to work with a technical team to deliver a product?",
-    "choice1": "SQL statements ",
-    "choice2": "VLOOKUP/PIVOT TABLES",
-    "choice3": "SALESFORCE",
-    "choice4": "POWER BI ",
-    "answer": 3
+    "choice1": "TRUE",
+    "choice2": "FALSE",
+    "answer": 1
   },
 
   {
     "question": "In waterfall does each phase need to be complete before the next phase can begin",
-    "choice1": "T",
+    "choice1": "TRUE",
     "choice2": "FALSE",
     "answer": 1
   },
 
   {
     "question": "A Business analyst may be asked to collaborate and coordinate with ",
-    "choice1": "stakeholders",
+    "choice1": "stakeholders, and executives",
     "choice2": "customers",
-    "answer": 1
+    "choice3": "Internal IT Teams",
+    "choice4": "All of the above ",
+    "answer": 4
   },
 
   {
@@ -367,8 +348,6 @@
     "question": "Needs are high-level definitions of the future goals of a business. Whereas, Requirements are the representation of the detailed description of that business needs.",
     "choice1": "TRUE",
     "choice2": "FALSE",
-    "choice3": "A task to determine what the business needs to address, urgently",
-    "choice4": "A task to capture the goods and services",
     "answer": 1
   },
   {
@@ -377,7 +356,7 @@
     "choice2": "Documentation",
     "choice3": "Decision making",
     "choice4": "Coding",
-    "answer": 3
+    "answer": 4
   },
   {
     "question": "What does INVEST stand for",
@@ -389,7 +368,7 @@
   },
 
   {
-    "question": "Which in NOT a core IT Business Analyst Skill",
+    "question": "Which is NOT a core IT Business Analyst Skill",
     "choice1": "Gathering Requirements from customer and teams",
     "choice2": "A liaison between business, customer and technology teams",
     "choice3": "Telling the business what they should do",
@@ -423,9 +402,9 @@
     "question": "Which of the following are apart of the Agile Manifesto",
     "choice1": "Individuals and interactions over processes and tools ",
     "choice2": "Working software over comprehensive documentation ",
-    "choice3": "Customer collaboration over contract negotiation ",
-    "choice4": "Responding to change over following a plan ",
-    "answer": 5
+    "choice3": "Customer collaboration over contract negotiation, and Responding to change over following a plan ",
+    "choice4": "All of the above ",
+    "answer": 4
   },
 
   {
@@ -450,8 +429,8 @@
     "question": "What does the  scrum team comprise of",
     "choice1": "Product Owner",
     "choice2": "Scrum Master ",
-    "choice3": "MS Visio, Lucid Chart ",
-    "choice4": "Development Team",
-    "answer": 5
+    "choice3": "Development Team ",
+    "choice4": "All of Above",
+    "answer": 4
   }
 ]
