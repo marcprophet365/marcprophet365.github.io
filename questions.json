@@ -270,7 +270,7 @@
     "choice2": "Prioritize the user stories/Epics to fit the needs of the business ",
     "choice3": "Perform Scrum over the business requirements ",
     "choice4": "Translate Scrum for Stakeholders and customer needs",
-    "answer": 3
+    "answer": 2
   },
 
   {
@@ -432,5 +432,23 @@
     "choice3": "Development Team ",
     "choice4": "All of Above",
     "answer": 4
+  },
+
+  {
+    "question": "What does the  REST stand for",
+    "choice1": "REACH EACH STRING TEST",
+    "choice2": "RESTING",
+    "choice3": "REPRESENTATIONAL STATE TRANSFER",
+    "choice4": "None of the above",
+    "answer": 3
+  },
+
+  {
+    "question": "Business Analyst is closely related to what role in SCRUM frame work",
+    "choice1": "Product Owner",
+    "choice2": "Scrum Master ",
+    "choice3": "Development Team ",
+    "choice4": "All of Above",
+    "answer": 1
   }
 ]
